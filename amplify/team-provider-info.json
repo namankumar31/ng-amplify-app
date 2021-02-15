@@ -10,6 +10,25 @@
       "StackName": "amplify-ngamplifyapp-dev-171031",
       "StackId": "arn:aws:cloudformation:us-east-1:790685348204:stack/amplify-ngamplifyapp-dev-171031/75a88e40-6f11-11eb-82d4-0ab389d40b93",
       "AmplifyAppId": "d3u2ftftxb2rsc"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3u2ftftxb2rsc",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "cognito9e7e1089": {}
+      },
+      "xr": {
+        "EchartsHtml3d": {
+          "url": "https://sumerian.us-east-1.amazonaws.com/20180801/projects/Drafts/release/authTokens?sceneId=99b37db64c4f43ae85aba9a7a753b96b.scene",
+          "sceneId": "99b37db64c4f43ae85aba9a7a753b96b.scene",
+          "region": "us-east-1",
+          "projectName": "Drafts"
+        }
+      }
     }
   }
 }

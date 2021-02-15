@@ -16,5 +16,25 @@
         }
       }
     }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
+    }
+  },
+  "auth": {
+    "cognito9e7e1089": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "xr": {
+    "EchartsHtml3d": {
+      "service": "Sumerian",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

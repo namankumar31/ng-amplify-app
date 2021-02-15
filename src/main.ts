@@ -4,6 +4,7 @@ import Amplify from 'aws-amplify';
 import awsmobile from './aws-exports';
 
 import { AppModule } from './app/app.module';
+import { SumerianModule } from './components/sumerian/sumerian.module';
 import { environment } from './environments/environment';
 
 if (environment.production) {
@@ -11,7 +12,7 @@ if (environment.production) {
 }
 
 platformBrowserDynamic()
-  .bootstrapModule(AppModule)
+  .bootstrapModule(SumerianModule)
   .catch((err) => console.error(err));
 
-  Amplify.configure(awsmobile);
+Amplify.configure(awsmobile);
